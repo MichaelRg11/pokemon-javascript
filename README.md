@@ -1,4 +1,4 @@
-# `Pokedex-Typescrip` 
+# `Pokedex-Javascript` 
 
 ## `Intalacion` 🚀
 
