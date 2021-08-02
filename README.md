@@ -30,12 +30,6 @@ _Si se está usando npm se debe correr con:_
 npm start
 ```
 
-**Instalación** de dependencias con yarn.
-
-```
-yarn o yarn install
-```
-
 ## `Librerías` 📋
 
 ### Styled Component 
