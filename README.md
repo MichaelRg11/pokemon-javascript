@@ -1,5 +1,10 @@
 # `Pokedex-Javascript` 
 
+## `Instalaciones necesarias` 
+
+_Se debe tener previa mente instalado Node.js.
+
+
 ## `Intalación` 🚀
 
 _Después de haber clonado el repositorio se deben instalar las dependencias._
