@@ -1,30 +1,18 @@
 # `Pokedex-Javascript` 
 
-## `Intalacion` 🚀
+## `Intalación` 🚀
 
 _Después de haber clonado el repositorio se deben instalar las dependencias._
 
-**Instalacion** de dependencias con npm.
+**Instalación** de dependencias con npm.
 
 ```
-npm i o npm install
-```
-
-**Instalación** de dependencias con yarn.
-
-```
-yarn o yarn install
+npm install
 ```
 
 Como **Correr** el proyecto.
 
-_Si se está usando yarn se debe correr con:_
-
-```
-yarn start
-```
-
-_Si se está usando npm se debe correr con:_
+_Se debe ejecutar el comando:_
 
 ```
 npm start
@@ -32,8 +20,14 @@ npm start
 
 ## `Librerías` 📋
 
-### Styled Component 
-_Es una libreria que nos ayuda a escribir código CSS de una manera mas sencilla en los componente sin preocuparse de posibles coliciones de estilos._
+### Styled Component - "styled-components": "^5.3.0" 
+_Es una librería que nos ayuda a escribir código CSS de una manera mas sencilla en los componente sin preocuparse de las posibles coliciones de estilos._
 
-### Recharts 
-_Es una libreria de javascript para el manejo de los tipos de graficas como graficos de barra o circulares._
+### Recharts - "recharts": "^2.0.10"
+_Es una librería de javascript para el manejo de los tipos de graficas como gráficos de barra o circulares._
+
+### React Icons - "react-icons": "^4.2.0" 
+_Es una librería que permite utilizar importaciones ES6 para incluir solo los íconos que se usarán en nuestro proyecto._
+
+### React Router Dom - "react-router-dom": "^5.2.0" 
+_Es una librería que nos permite tener un manejo más flexible del enrutado de la aplicación._
