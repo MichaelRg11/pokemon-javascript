@@ -25,8 +25,8 @@ export default function Modal({ show = false, setShowModal, name, color, image, 
           <Title color={color} style={{ textAlign: 'center', fontSize: '30px' }}>Location</Title>
           <div style={{ textAlign: 'center' }}>
             {data?.length !== 0 ?
-              data?.map((item) => {
-                return <Button color={color}>{capitalizeFirstLetter(item.location_area.name.replace(/-/g, ' '))}</Button>
+              data?.map((item, index) => {
+                return <Button color={color} key={index}>{capitalizeFirstLetter(item.location_area.name.replace(/-/g, ' '))}</Button>
               })
               :
               <Title color={color}>Your location was not found</Title>

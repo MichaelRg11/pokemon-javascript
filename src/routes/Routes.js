@@ -6,8 +6,8 @@ export const Routes = () => {
   return (
     <>
       <Switch>
-        {route.map(route => {
-          return (<Route {...route} />)
+        {route.map((route, index) => {
+          return (<Route {...route} key={index} />)
         })}
       </Switch>
     </>

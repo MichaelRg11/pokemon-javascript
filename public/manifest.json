@@ -1,6 +1,15 @@
 {
-  "short_name": "React App",
   "name": "Create React App Sample",
+  "short_name": "React App",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Esta es una PWA de prueba",
+  "dir": "ltr",
+  "display_override": [
+    "standalone",
+    "fullscreen"
+  ],
+  "display": "standalone",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +27,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "lang": "es-ES",
+  "orientation": "portrait",
+  "prefer_related_application": false,
+  "scope": "/",
+  "start_url": "/"
 }

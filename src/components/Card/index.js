@@ -9,7 +9,6 @@ import { useState } from 'react';
 
 export const CardComponet = ({ url }) => {
   const { data, loading, error } = useFetch(url, false)
-  console.log("🚀 ~ file: index.js ~ line 12 ~ CardComponet ~ data", data)
   const { loaded, ref, onLoad } = useLoaderImg()
   const [show, setShow] = useState(false)
 
@@ -30,7 +29,7 @@ export const CardComponet = ({ url }) => {
             })}
           </P>
           {data.types.map((item, index) => {
-            return <Button color={colorBorder(data.types[index].type.name)}>{capitalizeFirstLetter(item.type.name)}</Button>
+            return <Button color={colorBorder(data.types[index].type.name)} key={index}>{capitalizeFirstLetter(item.type.name)}</Button>
           })}
         </div>
         <div>
