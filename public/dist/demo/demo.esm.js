@@ -1,0 +1,1 @@
+import{p as e,b as r}from"./p-bf17bb32.js";(()=>{const r=import.meta.url,o={};return""!==r&&(o.resourcesUrl=new URL(".",r).href),e(o)})().then((e=>r([["p-64e72190",[[1,"ado-video-player",{source:[8],type:[1]}],[1,"my-card",{name:[1],image:[1],role:[1],time:[32]}]]]],e)));
